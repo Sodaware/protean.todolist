@@ -17,6 +17,23 @@ are typically used for making notes in code, such as reminders to clean up
 functions or notes about potential problems that may need fixing later.
 
 
+Build Instructions
+------------------
+
+To build the plugin you'll need to add references to the following core Protean
+libraries:
+
+    * Hub.dll
+    * SandBar.dll
+    * Compona.SyntaxDocument.dll
+    * Tarro.dll
+    * Compona.SyntaxBox.dll
+    * Compona.CoreLib.dll
+
+Protean is built with .NET 1.1, and this plugin needs to be built for the same
+framework.
+
+
 Quick Installation Guide
 ------------------------
 
@@ -27,7 +44,7 @@ Protean again, the plugin should be enabled and ready to roll.
 Usage
 -----
 
-One the plugin has been installed, it can be enabled by selecting “Task List”
+Once the plugin has been installed, it can be enabled by selecting “Task List”
 from the Protean view menu. To scan loaded files, click the “refresh” button on
 the task pane’s toolbar.
 
