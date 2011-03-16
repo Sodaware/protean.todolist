@@ -1,0 +1,52 @@
+PROTEAN.TODOLIST
+--------------------------------------------------------------------------------
+
+Homepage:     http://www.sodaware.net/dev/tools/protean.todolist/
+Version:      1.0
+Release Date: 3rd September, 2007
+Licence:      Free to use without restriction.
+
+
+Description
+-----------
+
+This is a plugin for Protean IDE (http://www.nullcity.com/Posts/Show/ProteanIDE)
+
+It scans the project source files for comment tags such as “TODO:”. These tags 
+are typically used for making notes in code, such as reminders to clean up
+functions or notes about potential problems that may need fixing later.
+
+
+Quick Installation Guide
+------------------------
+
+Copy the folder “TodoList” to your Protean “Plugins” folder. When you run
+Protean again, the plugin should be enabled and ready to roll.
+
+
+Usage
+-----
+
+One the plugin has been installed, it can be enabled by selecting “Task List”
+from the Protean view menu. To scan loaded files, click the “refresh” button on
+the task pane’s toolbar.
+
+Todo List searches for the following tags at the start of comments:
+
+TASK:, KLUDGE:, HACK:, NOTE:, TEMP:
+
+For example, the following comment would generate a Todo entry in the Hack
+category:
+
+; HACK: This is a hack.
+someBlitzCodeHere()
+
+Tasks can be filtered using the drop-down menu, and can be sorted by their line
+number, filename, type and description.
+
+
+Thanks
+------
+
+The icons used in this plugin are from “Silk Icons”, which are available for 
+free at: http://www.famfamfam.com/lab/icons/silk/
