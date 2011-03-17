@@ -57,7 +57,6 @@ using System.Runtime.CompilerServices;
 //   (*) Delay Signing is an advanced option - see the Microsoft .NET Framework
 //       documentation for more information on this.
 //
-//C:\\phil\\dev\\dotNet\\Projects\\Plugins\\TodoList\\Resources\\TodoList-Plugin.snk
 [assembly: AssemblyDelaySign(false)]
 [assembly: AssemblyKeyFile("")]
 [assembly: AssemblyKeyName("")]
